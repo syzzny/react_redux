@@ -1,0 +1,43 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+.memo_wrap{
+    margin: 0 auto;
+    width: 600px;
+}
+.input{
+    height: 25px;
+    padding: 2px 5px;
+    font-weight: 500;
+    font-size: 15px;
+    color:rgb(128, 106, 128);
+}
+.addbtn{
+    height: 32px;
+    margin-left: 4px;
+}
+.memowrap{
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 0.3fr 0.3fr;
+    align-items: center;
+    padding: 10px 0;
+    justify-items: start;
+}
+.text{
+    font-size: 18px;
+    font-weight: 500;
+}
+.deletentn{
+    width: 65px;
+    height: 30px;
+}
+.heartbtn{
+    width: 65px;
+    height: 30px;
+}
